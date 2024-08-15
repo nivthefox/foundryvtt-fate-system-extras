@@ -8,6 +8,9 @@ export class App {
     name;
     version;
 
+    /**
+     * @param {Hooks} lifecycle
+     */
     constructor(lifecycle) {
         this.lifecycle = lifecycle;
 
