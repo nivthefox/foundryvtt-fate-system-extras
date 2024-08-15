@@ -1,9 +1,9 @@
 {
     "scripts": {
         "build": "npm run build:code",
-        "build:code": "rollup src/main.js -f es -o fate-system-toolkit.js -p json -p node-resolve -m --sourcemapFile src/main.js",
+        "build:code": "rollup src/main.js -f es -o fate-system-extras.js -p json -p node-resolve -m --sourcemapFile src/main.js",
         "lint": "eslint ./src",
-        "watch:code": "rollup src/main.js -f es -o fate-system-toolkit.js -p json -p node-resolve -m --sourcemapFile src/main.js -w"
+        "watch:code": "rollup src/main.js -f es -o fate-system-extras.js -p json -p node-resolve -m --sourcemapFile src/main.js -w"
     },
     "devDependencies": {
         "@eslint/js": "^9.9.0",

@@ -1,6 +1,6 @@
 {
-  "id": "fate-system-toolbox",
-  "title": "Fate System Toolbox",
+  "id": "fate-system-extras",
+  "title": "Fate System Extras",
   "description": "Common hacks for the Fate Core Official FoundryVTT system",
   "version": "1.0.0",
   "authors": [
@@ -22,7 +22,7 @@
       }
     ]
   },
-  "esmodules": ["fate-system-toolkit.js"],
+  "esmodules": ["fate-system-extras.js"],
   "languages": [
     {
       "lang": "en",
@@ -30,10 +30,10 @@
       "path": "lang/en.json"
     }
   ],
-  "url":		"https://github.com/nivthefox/foundryvtt-fate-system-toolkit",
-  "license":	"https://github.com/nivthefox/foundryvtt-fate-system-toolkit/LICENSE",
-  "manifest":	"https://github.com/nivthefox/foundryvtt-fate-system-toolkit/bundle/module.json",
-  "download":	"https://github.com/nivthefox/foundryvtt-fate-system-toolkit/bundle/foundryvtt-fate-system-toolkit.zip",
-  "readme":	    "https://github.com/nivthefox/foundryvtt-fate-system-toolkit/README.md",
-  "changelog":  "https://github.com/nivthefox/foundryvtt-fate-system-toolkit/CHANGELOG.md"
+  "url":		"https://github.com/nivthefox/foundryvtt-fate-system-extras",
+  "license":	"https://github.com/nivthefox/foundryvtt-fate-system-extras/LICENSE",
+  "manifest":	"https://github.com/nivthefox/foundryvtt-fate-system-extras/bundle/module.json",
+  "download":	"https://github.com/nivthefox/foundryvtt-fate-system-extras/bundle/foundryvtt-fate-system-extras.zip",
+  "readme":	    "https://github.com/nivthefox/foundryvtt-fate-system-extras/README.md",
+  "changelog":  "https://github.com/nivthefox/foundryvtt-fate-system-extras/CHANGELOG.md"
 }
