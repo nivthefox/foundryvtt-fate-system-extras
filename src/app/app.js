@@ -1,4 +1,4 @@
-import {Logger, LogLevels} from "../internal/domain/Logger.js";
+import {Logger, LogLevels} from "../internal/utils/Logger.js";
 
 export class App {
     logger;

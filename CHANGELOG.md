@@ -10,3 +10,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - This is the first release of the Fate System Toolbox module for Foundry VTT.
 - Fate System Toolbox is now licensed under the MIT License.
 - The initial README.md and CHANGELOG.md files have been created.
+- Added a github workflow to ensure that the CHANGELOG is always up to date.

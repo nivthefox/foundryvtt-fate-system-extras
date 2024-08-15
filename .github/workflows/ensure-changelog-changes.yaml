@@ -1,0 +1,17 @@
+name: 'build-test'
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: danieljimeneznz/ensure-files-changed@v4.1.0
+        with:
+          require-changes-to: |
+            CHANGELOG.md
+          token: ${{ secrets.GITHUB_TOKEN }}
