@@ -22,7 +22,7 @@
       }
     ]
   },
-  "esmodules": ["fate-system-toolkit.mjs"],
+  "esmodules": ["fate-system-toolkit.js"],
   "languages": [
     {
       "lang": "en",

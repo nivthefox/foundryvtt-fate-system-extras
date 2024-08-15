@@ -1,4 +1,4 @@
-name: 'build-test'
+name: Checks
 
 on:
   pull_request:
@@ -7,11 +7,13 @@ on:
       - "main"
 
 jobs:
-  build:
+  ensure-changes:
     runs-on: ubuntu-latest
     steps:
       - uses: danieljimeneznz/ensure-files-changed@v4.1.0
         with:
           require-changes-to: |
             CHANGELOG.md
+          prevent-changes-to: |
+            LICENSE
           token: ${{ secrets.GITHUB_TOKEN }}
