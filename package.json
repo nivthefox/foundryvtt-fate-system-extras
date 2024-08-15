@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "build": "tsc src/main.mjs --outDir dist",
+        "build:code": "rollup src/main.mjs -f es -o fate-system-toolkit.mjs -p json -p node-resolve -m --sourcemapFile src/main.mjs",
+        "watch:code": "rollup src/main.mjs -f es -o fate-system-toolkit.mjs -p json -p node-resolve -m --sourcemapFile src/main.mjs -w",
+        "clean": "rm -rf dist"
+    },
+    "devDependencies": {
+        "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
+        "@rollup/plugin-json": "^6.1.0",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "fancy-log": "^2.0.0",
+        "rollup": "^4.20.0",
+        "sass": "^1.77.8"
+    }
+}

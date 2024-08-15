@@ -1,0 +1,39 @@
+{
+  "id": "fate-system-toolbox",
+  "title": "Fate System Toolbox",
+  "description": "Common hacks for the Fate Core Official FoundryVTT system",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "nivthefox",
+      "discord": "nivthefox"
+    }
+  ],
+  "compatibility": {
+    "minimum":  "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "fate-core-official",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": ["fate-system-toolkit.mjs"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url":		"https://github.com/nivthefox/foundryvtt-fate-system-toolkit",
+  "license":	"https://github.com/nivthefox/foundryvtt-fate-system-toolkit/LICENSE",
+  "manifest":	"https://github.com/nivthefox/foundryvtt-fate-system-toolkit/bundle/module.json",
+  "download":	"https://github.com/nivthefox/foundryvtt-fate-system-toolkit/bundle/foundryvtt-fate-system-toolkit.zip",
+  "readme":	    "https://github.com/nivthefox/foundryvtt-fate-system-toolkit/README.md",
+  "changelog":  "https://github.com/nivthefox/foundryvtt-fate-system-toolkit/CHANGELOG.md"
+}
